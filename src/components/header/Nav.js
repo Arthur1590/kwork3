@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import search from './img/search.svg'
 import like from './img/like 1.svg'
 import logo from './img/logo.png'
+import clsx from 'clsx'
 
 const Nav = () => {
+	const [show, setShow] = useState(false)
+	const newState = clsx('burger__menu', { active: !show })
+
 	return (
 		<nav className='header__nav'>
 			<ul className='header__nav-list'>
 				<div className='header__nav-list-menu'>
-					<div className='burger__menu'>
+					<div onClick={() => setShow(!show)} className={newState}>
 						<span></span>
 					</div>
 					<li>

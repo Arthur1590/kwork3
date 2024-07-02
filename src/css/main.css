@@ -1,9 +1,16 @@
 @import './font.css';
-
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+input,
+button,
+div {
+	box-sizing: border-box;
+	border: none;
+	background: none;
+	outline: none;
 }
 ::before,
 ::after {
@@ -30,8 +37,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	overflow-y: scroll;
-	overflow-x: hidden !important;
+	overflow: hidden;
 }
 .main {
 	flex-grow: 1;
@@ -43,6 +49,14 @@ body {
 	line-height: 3.44rem;
 	margin: 168px 60px;
 	text-align: center;
+}
+.section__title span {
+	color: rgb(34, 34, 34);
+	font-size: 1.63rem;
+	font-weight: 400;
+	line-height: 1.94rem;
+	letter-spacing: 0%;
+	text-align: left;
 }
 
 .container {

@@ -1,0 +1,211 @@
+.price {
+	min-height: 100vh;
+	margin: 2rem 0;
+}
+.price__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 0.75rem;
+	box-shadow: 0rem 0rem 2.19rem 0rem rgba(0, 0, 0, 0.13);
+	background: rgb(255, 255, 255);
+	width: 73.13rem;
+	height: 49rem;
+	padding: 5rem 1.5rem;
+}
+.price__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.price__level {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.price__content h1 {
+	text-align: center;
+	color: rgb(34, 34, 34);
+	font-size: 2.13rem;
+	font-weight: 600;
+	line-height: 2.56rem;
+	text-align: center;
+}
+.price__level-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 26px;
+}
+.price__level-content-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(13.81rem, 1fr));
+	grid-auto-rows: auto;
+	place-content: center;
+	gap: 26px;
+}
+.price__level-content img {
+	max-width: 8.06rem;
+	height: 7.41rem;
+	object-fit: cover;
+}
+.price__level-content div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.price__level-item {
+	min-width: 13.81rem;
+	height: 13.81rem;
+	border: 0.06rem solid rgba(0, 0, 0, 0.09);
+	border-radius: 0.56rem;
+	background: rgb(255, 255, 255);
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.price__level-item.active {
+	border: 1px solid #45c436;
+}
+.price__level-titleHolder {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 47px;
+}
+.price__title {
+	color: rgb(34, 34, 34);
+	font-size: 2.13rem;
+	font-weight: 600;
+	line-height: 2.56rem;
+	letter-spacing: 0%;
+	text-align: left;
+}
+.counter {
+	color: rgb(34, 34, 34);
+	font-size: 0.88rem;
+	font-weight: 400;
+	line-height: 1.06rem;
+	text-align: center;
+}
+.price__level-desc {
+	color: rgb(34, 34, 34);
+	font-size: 1.13rem;
+	font-weight: 400;
+	line-height: 1.31rem;
+	text-align: center;
+}
+.price__level-btn {
+	margin: 1rem 0;
+	color: rgb(255, 255, 255);
+	font-size: 1.13rem;
+	font-weight: 400;
+	line-height: 1.31rem;
+	letter-spacing: 0%;
+	text-align: center;
+	padding: 26px 76px;
+	border-radius: 7.88rem;
+	background: linear-gradient(
+			-16.76deg,
+			rgba(0, 0, 0, 0.2) -12.863%,
+			rgba(0, 0, 0, 0) 66.504%
+		),
+		rgb(69, 196, 54);
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+.price__level-btn:hover {
+	cursor: pointer;
+}
+/* SECTION 2 */
+.price__level-decor {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.5rem;
+	position: relative;
+}
+.price__bg {
+	background: linear-gradient(to right, #ffd25a 50%, #45c436 50%);
+	padding: 16.5rem 0 0 0;
+	overflow: hidden;
+	border-radius: 0.56rem;
+}
+.price__level-decor-profile {
+	position: absolute;
+	max-width: 30rem;
+	object-fit: cover;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 100;
+}
+.price__level-info {
+	max-width: 20rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 0.56rem;
+	box-shadow: 0rem 0rem 0.94rem 0rem rgba(0, 0, 0, 0.09);
+	background: linear-gradient(
+			161.77deg,
+			rgba(255, 255, 255, 0) 19.849%,
+			rgb(255, 255, 255) 82.432%
+		),
+		rgba(255, 255, 255, 0.86);
+	z-index: 200;
+	padding: 01.5rem;
+}
+.prcie__level-info--flexer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.prcie__level-info--flexer--4 {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 23px;
+}
+.price__level-info img {
+	max-width: 10.37rem;
+	width: 100%;
+	object-fit: cover;
+}
+.price__level-info h5 {
+	color: rgb(34, 34, 34);
+	font-size: 1.63rem;
+	font-weight: 600;
+	line-height: 1.94rem;
+	text-align: left;
+}
+.price__level-info button {
+	color: rgb(69, 196, 54);
+	border: 0.06rem solid rgb(69, 196, 54);
+	border-radius: 0.56rem;
+	padding: 12px 33px;
+	font-size: 1.13rem;
+	font-weight: 400;
+	line-height: 1.31rem;
+	letter-spacing: 0%;
+	text-align: left;
+}
+.price__level-info p {
+	color: rgb(34, 34, 34);
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.19rem;
+	letter-spacing: 0%;
+	text-align: left;
+}

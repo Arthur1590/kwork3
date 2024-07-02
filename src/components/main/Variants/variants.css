@@ -8,9 +8,26 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	gap: 78px;
+	min-height: 45.69rem;
 	padding: 26px 90px 53px 69px;
+}
+.var .contaienr {
+	position: relative;
+}
+.var__line {
+	position: absolute;
+	top: 36.5rem;
+	left: 10rem;
+	width: 100%;
+	object-fit: cover;
+	z-index: -1;
+}
+.var__left-holder {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .var .container {
 	display: flex;
@@ -50,6 +67,7 @@
 }
 .var__price::before {
 	position: absolute;
+	width: 100%;
 	top: -2.9rem;
 	left: 50%;
 	transform: translateX(-50%);
@@ -74,7 +92,7 @@
 	line-height: 1.31rem;
 	border: none;
 	padding: 26px 68px;
-	transition: .3s all ease-in-out;
+	transition: 0.3s all ease-in-out;
 }
 .var__btn:hover {
 	box-shadow: 2px 2.2px 3px #1f1d1d;

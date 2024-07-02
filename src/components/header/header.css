@@ -103,15 +103,15 @@
 .burger__menu::before {
 	bottom: 0;
 }
-.burger__menu:hover span {
+.burger__menu.active span {
 	transform: scale(0);
 	opacity: 0;
 }
-.burger__menu:hover::after {
+.burger__menu.active::after {
 	transform: rotate(45deg);
 	top: 9px;
 }
-.burger__menu:hover::before {
+.burger__menu.active::before {
 	transform: rotate(-45deg);
 	bottom: 9px;
 }
