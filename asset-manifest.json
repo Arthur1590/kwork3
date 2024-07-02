@@ -1,27 +1,41 @@
 {
   "files": {
-    "main.css": "/kwork3/static/css/main.9bb25bf7.css",
-    "main.js": "/kwork3/static/js/main.d04f1073.js",
+    "main.css": "/kwork3/static/css/main.3f055e98.css",
+    "main.js": "/kwork3/static/js/main.60c17aab.js",
     "static/js/453.cb3cc533.chunk.js": "/kwork3/static/js/453.cb3cc533.chunk.js",
+    "static/media/futureTable.svg": "/kwork3/static/media/futureTable.6c92d2ae6f4b7ce0a91daf718ca71c54.svg",
+    "static/media/facebook 1.svg": "/kwork3/static/media/facebook 1.d57ee029f460429fd4998d039df93bbc.svg",
+    "static/media/inst 1.svg": "/kwork3/static/media/inst 1.9fa5adf45d244e00925f7228bbb4a715.svg",
     "static/media/SFPRODISPLAYMEDIUM.OTF": "/kwork3/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
     "static/media/SFPRODISPLAYBOLD.OTF": "/kwork3/static/media/SFPRODISPLAYBOLD.b1f4d2c69fa808ebca12.OTF",
     "static/media/clouds.png": "/kwork3/static/media/clouds.1adb01fef29129fe6b7c.png",
     "static/media/mainPC.png": "/kwork3/static/media/mainPC.e9148efa5237f4cb4db1.png",
     "static/media/SFPRODISPLAYREGULAR.OTF": "/kwork3/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
     "static/media/intro_bg.png": "/kwork3/static/media/intro_bg.df3e79219c66b8a41c35.png",
+    "static/media/seo.svg": "/kwork3/static/media/seo.9baa9319d8b58ef0d0c31088d03adf22.svg",
+    "static/media/myPic.png": "/kwork3/static/media/myPic.740ed4947fe2e7902a8d.png",
+    "static/media/yandex.svg": "/kwork3/static/media/yandex.61eada95c4a90e2f4bb09af68ff6e723.svg",
+    "static/media/bg_level3.png": "/kwork3/static/media/bg_level3.b0569fb50dce449d2625.png",
+    "static/media/googleLogo.svg": "/kwork3/static/media/googleLogo.6c73112bf4e4cb44482a43afe7ad7eaf.svg",
+    "static/media/Darts.png": "/kwork3/static/media/Darts.eb75a6673b2ca2a804cd.png",
     "static/media/комп-2-карточка-многостр 1.png": "/kwork3/static/media/комп-2-карточка-многостр 1.a99cdfcd52da15eeaf57.png",
     "static/media/book.png": "/kwork3/static/media/book.4193c924fb8fe7deafe7.png",
     "static/media/mobile.png": "/kwork3/static/media/mobile.ad37c75577d4a91ed098.png",
+    "static/media/Frame2.png": "/kwork3/static/media/Frame2.863a2a628c01cb858950.png",
+    "static/media/luba.png": "/kwork3/static/media/luba.ba9b11b3c99754a28136.png",
+    "static/media/futurePc.png": "/kwork3/static/media/futurePc.c894ff7e170f93f151d6.png",
     "static/media/denga.png": "/kwork3/static/media/denga.81b4a74a1b0309a022cc.png",
+    "static/media/phoneDecor.png": "/kwork3/static/media/phoneDecor.6e5680178f2b42dbdbc8.png",
     "static/media/like 1.svg": "/kwork3/static/media/like 1.ef233594c57283ac827be2982324a447.svg",
+    "static/media/Сочетание 1.svg": "/kwork3/static/media/Сочетание 1.43626332c273cd3a9265d932c5efa69b.svg",
     "static/media/search.svg": "/kwork3/static/media/search.11090207611e91b3ada3acf4e41f3d11.svg",
     "index.html": "/kwork3/index.html",
-    "main.9bb25bf7.css.map": "/kwork3/static/css/main.9bb25bf7.css.map",
-    "main.d04f1073.js.map": "/kwork3/static/js/main.d04f1073.js.map",
+    "main.3f055e98.css.map": "/kwork3/static/css/main.3f055e98.css.map",
+    "main.60c17aab.js.map": "/kwork3/static/js/main.60c17aab.js.map",
     "453.cb3cc533.chunk.js.map": "/kwork3/static/js/453.cb3cc533.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bb25bf7.css",
-    "static/js/main.d04f1073.js"
+    "static/css/main.3f055e98.css",
+    "static/js/main.60c17aab.js"
   ]
 }
