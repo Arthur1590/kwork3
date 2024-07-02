@@ -1,0 +1,82 @@
+.var {
+	min-height: 100vh;
+}
+.var__left {
+	border-radius: 0.75rem;
+	box-shadow: 0rem 0rem 1.25rem 0rem rgba(0, 0, 0, 0.11);
+	background: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 78px;
+	padding: 26px 90px 53px 69px;
+}
+.var .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 30px;
+}
+.var__title {
+	color: rgb(34, 34, 34);
+	font-size: 1.63rem;
+	font-weight: 600;
+	line-height: 1.94rem;
+	text-align: center;
+}
+.var__desc {
+	color: rgb(34, 34, 34);
+	font-size: 1.13rem;
+	font-weight: 400;
+	line-height: 1.31rem;
+	text-align: center;
+	max-width: 26.94rem;
+}
+.var__info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 28px;
+}
+.var__price {
+	color: rgb(60, 170, 47);
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.81rem;
+	letter-spacing: 0%;
+	position: relative;
+	text-align: center;
+}
+.var__price::before {
+	position: absolute;
+	top: -2.9rem;
+	left: 50%;
+	transform: translateX(-50%);
+	content: '60000 руб';
+	text-decoration: line-through;
+	color: rgb(152, 152, 151);
+	font-size: 1.13rem;
+	font-weight: 400;
+	line-height: 1.31rem;
+}
+.var__btn {
+	border-radius: 7.88rem;
+	background: linear-gradient(
+			-16.76deg,
+			rgba(0, 0, 0, 0.2) -12.863%,
+			rgba(0, 0, 0, 0) 66.504%
+		),
+		rgb(69, 196, 54);
+	color: rgb(255, 255, 255);
+	font-size: 1.13rem;
+	font-weight: 400;
+	line-height: 1.31rem;
+	border: none;
+	padding: 26px 68px;
+	transition: .3s all ease-in-out;
+}
+.var__btn:hover {
+	box-shadow: 2px 2.2px 3px #1f1d1d;
+	cursor: pointer;
+}

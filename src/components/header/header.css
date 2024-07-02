@@ -1,0 +1,117 @@
+.header {
+	min-height: 92px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #dadada;
+	background: transparent;
+}
+.header__nav-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header__nav-list-menu {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.header__logo {
+	display: flex;
+	align-items: center;
+}
+.header__logo img {
+	width: 100%;
+	object-fit: cover;
+}
+.header__logo {
+	color: rgb(34, 34, 34);
+	font-weight: 500;
+	font-size: 2.25rem;
+}
+.header__nav-list--addInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.5rem;
+}
+.header__nav-list--addInfo a {
+	color: rgb(34, 34, 34);
+	font-size: 1.13rem;
+	font-weight: 400;
+	line-height: 1.31rem;
+	position: relative;
+}
+.header__nav-list--addInfo--desc {
+	position: relative;
+	border-radius: 4.19rem;
+	background: rgb(42, 210, 0);
+	color: rgb(34, 34, 34);
+	padding: 0.4rem 1.2rem;
+	font-size: 0.88rem;
+	font-weight: 300;
+	line-height: 1.06rem;
+	letter-spacing: 0%;
+	text-align: left;
+}
+.header__nav-list--addInfo--desc::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #fff;
+}
+.burger__menu {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	width: 30px;
+	height: 20px;
+}
+
+/* BURGER MENU */
+.burger__menu span {
+	position: absolute;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%) scale(1);
+	display: block;
+	background: #000000;
+	transition: 0.3s;
+}
+.burger__menu::before,
+.burger__menu::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background: #000000;
+	left: 0;
+	display: block;
+	transition: 0.3s;
+}
+.burger__menu::after {
+	top: 0;
+}
+.burger__menu::before {
+	bottom: 0;
+}
+.burger__menu:hover span {
+	transform: scale(0);
+	opacity: 0;
+}
+.burger__menu:hover::after {
+	transform: rotate(45deg);
+	top: 9px;
+}
+.burger__menu:hover::before {
+	transform: rotate(-45deg);
+	bottom: 9px;
+}
