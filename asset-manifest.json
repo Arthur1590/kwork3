@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.508ec31a.css",
-    "main.js": "/static/js/main.3f0b38d9.js",
-    "static/js/453.cb3cc533.chunk.js": "/static/js/453.cb3cc533.chunk.js",
-    "static/media/SFPRODISPLAYMEDIUM.OTF": "/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
-    "static/media/SFPRODISPLAYBOLD.OTF": "/static/media/SFPRODISPLAYBOLD.b1f4d2c69fa808ebca12.OTF",
-    "static/media/clouds.png": "/static/media/clouds.1adb01fef29129fe6b7c.png",
-    "static/media/mainPC.png": "/static/media/mainPC.e9148efa5237f4cb4db1.png",
-    "static/media/SFPRODISPLAYREGULAR.OTF": "/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
-    "static/media/intro_bg.png": "/static/media/intro_bg.df3e79219c66b8a41c35.png",
-    "static/media/комп-2-карточка-многостр 1.png": "/static/media/комп-2-карточка-многостр 1.a99cdfcd52da15eeaf57.png",
-    "static/media/book.png": "/static/media/book.4193c924fb8fe7deafe7.png",
-    "static/media/mobile.png": "/static/media/mobile.ad37c75577d4a91ed098.png",
-    "static/media/denga.png": "/static/media/denga.81b4a74a1b0309a022cc.png",
-    "static/media/like 1.svg": "/static/media/like 1.ef233594c57283ac827be2982324a447.svg",
-    "static/media/search.svg": "/static/media/search.11090207611e91b3ada3acf4e41f3d11.svg",
-    "index.html": "/index.html",
-    "main.508ec31a.css.map": "/static/css/main.508ec31a.css.map",
-    "main.3f0b38d9.js.map": "/static/js/main.3f0b38d9.js.map",
-    "453.cb3cc533.chunk.js.map": "/static/js/453.cb3cc533.chunk.js.map"
+    "main.css": "/kwork3/static/css/main.9bb25bf7.css",
+    "main.js": "/kwork3/static/js/main.d04f1073.js",
+    "static/js/453.cb3cc533.chunk.js": "/kwork3/static/js/453.cb3cc533.chunk.js",
+    "static/media/SFPRODISPLAYMEDIUM.OTF": "/kwork3/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
+    "static/media/SFPRODISPLAYBOLD.OTF": "/kwork3/static/media/SFPRODISPLAYBOLD.b1f4d2c69fa808ebca12.OTF",
+    "static/media/clouds.png": "/kwork3/static/media/clouds.1adb01fef29129fe6b7c.png",
+    "static/media/mainPC.png": "/kwork3/static/media/mainPC.e9148efa5237f4cb4db1.png",
+    "static/media/SFPRODISPLAYREGULAR.OTF": "/kwork3/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
+    "static/media/intro_bg.png": "/kwork3/static/media/intro_bg.df3e79219c66b8a41c35.png",
+    "static/media/комп-2-карточка-многостр 1.png": "/kwork3/static/media/комп-2-карточка-многостр 1.a99cdfcd52da15eeaf57.png",
+    "static/media/book.png": "/kwork3/static/media/book.4193c924fb8fe7deafe7.png",
+    "static/media/mobile.png": "/kwork3/static/media/mobile.ad37c75577d4a91ed098.png",
+    "static/media/denga.png": "/kwork3/static/media/denga.81b4a74a1b0309a022cc.png",
+    "static/media/like 1.svg": "/kwork3/static/media/like 1.ef233594c57283ac827be2982324a447.svg",
+    "static/media/search.svg": "/kwork3/static/media/search.11090207611e91b3ada3acf4e41f3d11.svg",
+    "index.html": "/kwork3/index.html",
+    "main.9bb25bf7.css.map": "/kwork3/static/css/main.9bb25bf7.css.map",
+    "main.d04f1073.js.map": "/kwork3/static/js/main.d04f1073.js.map",
+    "453.cb3cc533.chunk.js.map": "/kwork3/static/js/453.cb3cc533.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.508ec31a.css",
-    "static/js/main.3f0b38d9.js"
+    "static/css/main.9bb25bf7.css",
+    "static/js/main.d04f1073.js"
   ]
 }
