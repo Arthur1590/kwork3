@@ -6,7 +6,7 @@ import clsx from 'clsx'
 
 const Nav = () => {
 	const [show, setShow] = useState(false)
-	const newState = clsx('burger__menu', { active: !show })
+	const newState = clsx('burger__menu', { active: show })
 
 	return (
 		<nav className='header__nav'>

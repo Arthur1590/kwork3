@@ -5,6 +5,7 @@ import Pricelevel2 from './PriceLevels/PriceLevel2'
 import Pricelevel3 from './PriceLevels/Pricelevel3'
 import Pricelevel4 from './PriceLevels/PriceLevel4'
 import './price.css'
+import PricelevelEnd from './PriceLevels/PricelevelEnd'
 
 const Price = () => {
 	const [step, setStep] = useState(1)
@@ -57,8 +58,15 @@ const Price = () => {
 					{step === 4 && (
 						<Pricelevel4
 							counter={step}
-							onNext={finishQuest}
+							onNext={handleNext}
 							onAnswer={answer => getAnswers('question4', answer)}
+						/>
+					)}
+					{step === 5 && (
+						<PricelevelEnd
+							counter={step}
+							onNext={finishQuest}
+							onAnswer={answer => getAnswers('question5', answer)}
 						/>
 					)}
 				</div>

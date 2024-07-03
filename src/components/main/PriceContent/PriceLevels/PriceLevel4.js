@@ -10,6 +10,7 @@ import seo from '../img/seo.png'
 import CustomBtn from '../../../UI/CutomBtn/CustomBtn'
 import clsx from 'clsx'
 import TitleIn from '../../../TitleIn/TitleIn'
+import '../price.css'
 
 const Pricelevel4 = ({ counter, onNext, onAnswer }) => {
 	const [activeIndex, setActiveIndex] = useState(null)
@@ -22,6 +23,20 @@ const Pricelevel4 = ({ counter, onNext, onAnswer }) => {
 	return (
 		<div className='price__wrapper'>
 			<div className='price__level'>
+				<div className='price__indicate'>
+					<div
+						className={clsx('price__indicator', { active: counter === 4 })}
+					></div>
+					<div
+						className={clsx('price__indicator', { active: counter === 4 })}
+					></div>
+					<div
+						className={clsx('price__indicator', { active: counter === 4 })}
+					></div>
+					<div
+						className={clsx('price__indicator', { active: counter === 4 })}
+					></div>
+				</div>
 				<div className='price__level-titleHolder'>
 					<span className='counter'>{counter} из 4 вопросов</span>
 					<TitleIn text='Выберите, что дополнительно к сайту нужно' />
@@ -77,7 +92,7 @@ const Pricelevel4 = ({ counter, onNext, onAnswer }) => {
 						<p className='price__level-desc'>SEO продвижение</p>
 					</div>
 				</div>
-				<CustomBtn content='Далее' onNext={onNext} />
+				<CustomBtn content='Закончить' onNext={onNext} />
 			</div>
 
 			<div className='price__bg'>

@@ -20,6 +20,14 @@ const Pricelevel1 = ({ counter, onNext, onAnswer }) => {
 	return (
 		<div className='price__wrapper'>
 			<div className='price__level'>
+				<div className='price__indicate'>
+					<div
+						className={clsx('price__indicator', { active: counter === 1 })}
+					></div>
+					<div className='price__indicator'></div>
+					<div className='price__indicator'></div>
+					<div className='price__indicator'></div>
+				</div>
 				<div className='price__level-titleHolder'>
 					<span className='counter'>{counter} из 4</span>
 					<TitleIn text='Что Вы хотите получить?' />

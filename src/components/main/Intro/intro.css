@@ -12,6 +12,40 @@
 	background-position: center;
 	width: 100%;
 }
+.intro__controlls {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.intro__controlls .filler {
+	width: 0.13rem;
+	height: 9.44rem;
+	border-radius: 1.44rem;
+	background: rgb(255, 255, 255);
+}
+.intro__controlls .up {
+	transform: rotate(180deg);
+}
+.filler {
+	position: relative;
+}
+.filler__counter {
+	position: absolute;
+	top: 0;
+	left: 1rem;
+	color: rgb(69, 196, 54);
+	font-size: 0.75rem;
+	font-weight: 600;
+	line-height: 120.84%;
+}
+.filler span {
+	display: block;
+	width: 0.13rem;
+	height: 1rem;
+	border-radius: 1.44rem;
+	background: rgb(69, 196, 54);
+}
 .intro .cloud {
 	position: absolute;
 	bottom: 0;
@@ -106,7 +140,7 @@
 	right: 2rem;
 	max-width: 51px;
 	width: 100%;
-	object-fit: cover;	
+	object-fit: cover;
 }
 .intro__mobile {
 	width: 100%;

@@ -17,6 +17,18 @@ const Pricelevel3 = ({ counter, onNext, onAnswer }) => {
 	return (
 		<div className='price__wrapper'>
 			<div className='price__level'>
+				<div className='price__indicate'>
+					<div
+						className={clsx('price__indicator', { active: counter === 3 })}
+					></div>
+					<div
+						className={clsx('price__indicator', { active: counter === 3 })}
+					></div>
+					<div
+						className={clsx('price__indicator', { active: counter === 3 })}
+					></div>
+					<div className='price__indicator'></div>
+				</div>
 				<div className='price__level-titleHolder'>
 					<span className='counter'>{counter} из 4 вопросов</span>
 					<TitleIn text='Как будем делать сайт?' />
@@ -48,7 +60,7 @@ const Pricelevel3 = ({ counter, onNext, onAnswer }) => {
 				<CustomBtn content='Далее' onNext={onNext} />
 			</div>
 
-			<div className='price__level-decor'>
+			<div className='price__level-decor decor--3'>
 				<img src={noutbooks} alt='' />
 			</div>
 		</div>

@@ -49,6 +49,18 @@ body {
 	line-height: 3.44rem;
 	margin: 168px 60px;
 	text-align: center;
+	position: relative;
+}
+.price .section__title::before {
+	content: '';
+	position: absolute;
+	left: 29px;
+	top: 15px;
+	box-shadow: 0 0 30px 10px rgb(82, 243, 65);
+	background: rgb(69, 196, 54);
+	width: 1.75rem;
+	height: 1.75rem;
+	border-radius: 50%;
 }
 .form .section__title {
 	max-width: 38rem;
