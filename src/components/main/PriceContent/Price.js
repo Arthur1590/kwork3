@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import './price.css'
 import SectionTitle from '../../sectionTitle/SectionTitle'
 import Pricelevel1 from './PriceLevels/Pricelevel1'
 import Pricelevel2 from './PriceLevels/PriceLevel2'
 import Pricelevel3 from './PriceLevels/Pricelevel3'
 import Pricelevel4 from './PriceLevels/PriceLevel4'
+import './price.css'
 
 const Price = () => {
 	const [step, setStep] = useState(1)

@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
-import pc from '../../../img/комп-2-карточка-многостр 1.png'
+import React from 'react'
+import pc1 from './img/комп-1-карточка-многостр 1.png'
+import pc2 from './img/комп-2-карточка-многостр 1.png'
 import line from './Сочетание 1.svg'
 import './variants.css'
 
@@ -11,14 +12,14 @@ const DoubleVariant = () => {
 			decs: 'Вам нужно будет только вставить текст и цены.',
 			price: 'От 45000 руб',
 			more: 'Подробнее',
-			img: pc,
+			img: pc1,
 		},
 		{
 			title: 'Многостраничный сайт на готовом решении',
 			text: 'Сайт будет разработан индивидуально под Ваши пожелания. Расположение блоков, цветов, описаний.',
 			price: 'От 95000 руб',
 			more: 'Подробнее',
-			img: pc,
+			img: pc2,
 		},
 	]
 
