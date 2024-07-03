@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kwork3/static/css/main.8985d3a7.css",
-    "main.js": "/kwork3/static/js/main.6f3eaf5d.js",
+    "main.css": "/kwork3/static/css/main.d84ffbdc.css",
+    "main.js": "/kwork3/static/js/main.938dc503.js",
     "static/js/453.cb3cc533.chunk.js": "/kwork3/static/js/453.cb3cc533.chunk.js",
     "static/media/decor_bgg.png": "/kwork3/static/media/decor_bgg.0d65392d66ac25ae300d.png",
     "static/media/decor__book.png": "/kwork3/static/media/decor__book.736f0750d25bc7e29378.png",
@@ -50,12 +50,12 @@
     "static/media/call в 2.svg": "/kwork3/static/media/call в 2.a10dec0988b97a81c8f8835f3d980e5e.svg",
     "static/media/call в 3.svg": "/kwork3/static/media/call в 3.aedeff562ba98b8b78e10bd7bca52897.svg",
     "index.html": "/kwork3/index.html",
-    "main.8985d3a7.css.map": "/kwork3/static/css/main.8985d3a7.css.map",
-    "main.6f3eaf5d.js.map": "/kwork3/static/js/main.6f3eaf5d.js.map",
+    "main.d84ffbdc.css.map": "/kwork3/static/css/main.d84ffbdc.css.map",
+    "main.938dc503.js.map": "/kwork3/static/js/main.938dc503.js.map",
     "453.cb3cc533.chunk.js.map": "/kwork3/static/js/453.cb3cc533.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8985d3a7.css",
-    "static/js/main.6f3eaf5d.js"
+    "static/css/main.d84ffbdc.css",
+    "static/js/main.938dc503.js"
   ]
 }
