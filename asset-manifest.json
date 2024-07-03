@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kwork3/static/css/main.77fb654b.css",
-    "main.js": "/kwork3/static/js/main.2251f570.js",
+    "main.css": "/kwork3/static/css/main.8985d3a7.css",
+    "main.js": "/kwork3/static/js/main.6f3eaf5d.js",
     "static/js/453.cb3cc533.chunk.js": "/kwork3/static/js/453.cb3cc533.chunk.js",
     "static/media/decor_bgg.png": "/kwork3/static/media/decor_bgg.0d65392d66ac25ae300d.png",
     "static/media/decor__book.png": "/kwork3/static/media/decor__book.736f0750d25bc7e29378.png",
@@ -21,6 +21,7 @@
     "static/media/дом 1.png": "/kwork3/static/media/дом 1.6324b5b3b8560f4952f9.png",
     "static/media/bg_level3.png": "/kwork3/static/media/bg_level3.b0569fb50dce449d2625.png",
     "static/media/печи 1.png": "/kwork3/static/media/печи 1.e1d12379032ab36d4e0d.png",
+    "static/media/подарок 1.png": "/kwork3/static/media/подарок 1.92eeca3b5494fe65e160.png",
     "static/media/Darts.png": "/kwork3/static/media/Darts.eb75a6673b2ca2a804cd.png",
     "static/media/review_3 1.png": "/kwork3/static/media/review_3 1.deff4014f3f3b99eb35d.png",
     "static/media/Frame.png": "/kwork3/static/media/Frame.9cb31c58b2346595dba1.png",
@@ -37,19 +38,24 @@
     "static/media/futurePc.png": "/kwork3/static/media/futurePc.c894ff7e170f93f151d6.png",
     "static/media/denga.png": "/kwork3/static/media/denga.81b4a74a1b0309a022cc.png",
     "static/media/phoneDecor.png": "/kwork3/static/media/phoneDecor.6e5680178f2b42dbdbc8.png",
+    "static/media/instagram-sketched 2.svg": "/kwork3/static/media/instagram-sketched 2.e7e23ad1334fb2ab8af1c9430f004aad.svg",
+    "static/media/Whatsapp (3) 3.svg": "/kwork3/static/media/Whatsapp (3) 3.72b621a1517c7fc9195ebc3a1baf3f69.svg",
     "static/media/like 1.svg": "/kwork3/static/media/like 1.ef233594c57283ac827be2982324a447.svg",
     "static/media/social 1.svg": "/kwork3/static/media/social 1.823908f4b99052404e1aebbbb8d988f4.svg",
     "static/media/mail 2.svg": "/kwork3/static/media/mail 2.2ac0f10d0c02742be41737bb5e262994.svg",
     "static/media/Сочетание 1.svg": "/kwork3/static/media/Сочетание 1.43626332c273cd3a9265d932c5efa69b.svg",
+    "static/media/envelope 3.svg": "/kwork3/static/media/envelope 3.26fc972dcc927c87bb4e50c1d8fea768.svg",
     "static/media/search.svg": "/kwork3/static/media/search.11090207611e91b3ada3acf4e41f3d11.svg",
-    "static/media/call в 2.svg": "/kwork3/static/media/call в 2.f6df0c6d1735ddb74a5dbd6f54731552.svg",
+    "static/media/arrow.svg": "/kwork3/static/media/arrow.4dbef2fd345a19fee156241395d736cd.svg",
+    "static/media/call в 2.svg": "/kwork3/static/media/call в 2.a10dec0988b97a81c8f8835f3d980e5e.svg",
+    "static/media/call в 3.svg": "/kwork3/static/media/call в 3.aedeff562ba98b8b78e10bd7bca52897.svg",
     "index.html": "/kwork3/index.html",
-    "main.77fb654b.css.map": "/kwork3/static/css/main.77fb654b.css.map",
-    "main.2251f570.js.map": "/kwork3/static/js/main.2251f570.js.map",
+    "main.8985d3a7.css.map": "/kwork3/static/css/main.8985d3a7.css.map",
+    "main.6f3eaf5d.js.map": "/kwork3/static/js/main.6f3eaf5d.js.map",
     "453.cb3cc533.chunk.js.map": "/kwork3/static/js/453.cb3cc533.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77fb654b.css",
-    "static/js/main.2251f570.js"
+    "static/css/main.8985d3a7.css",
+    "static/js/main.6f3eaf5d.js"
   ]
 }
