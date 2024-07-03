@@ -26,6 +26,9 @@ div {
 html {
 	scroll-behavior: smooth;
 }
+#form {
+	scroll-margin: 150px;
+}
 body {
 	font-weight: 400;
 	font-size: 16px;

@@ -19,10 +19,15 @@ const IntroContent = () => {
 					для привличение клиентов в ваш бизнес
 				</p>
 			</div>
-			<button className='intro__content-btn'>
-				<span>Оставить заявку и получить КП</span>
-				<img src={book} alt='' />
-			</button>
+			<a href='#form'>
+				<button className='intro__content-btn'>
+					<span>
+						Оставить заявку
+						<br /> и получить КП
+					</span>
+					<img src={book} alt='' />
+				</button>
+			</a>
 		</article>
 	)
 }

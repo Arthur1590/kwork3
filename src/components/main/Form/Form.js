@@ -10,9 +10,9 @@ import './form.css'
 const Form = () => {
 	return (
 		<div className='form'>
-				<img className='bg__big' src={bg} alt="" />
+			<img className='bg__big' src={bg} alt='' />
 			<div className='container'>
-				<img className='book' src={book} alt="" />
+				<img className='book' src={book} alt='' />
 				<SectionTitle
 					text='Вам'
 					span='нужен современный красивый сайт,'
@@ -20,7 +20,9 @@ const Form = () => {
 				/>
 				<div className='form__content'>
 					<div className='form__content-info'>
-						<h1 className='form__content-title'>Заполните форму</h1>
+						<h1 id='form' className='form__content-title'>
+							Заполните форму
+						</h1>
 						<p className='form__content-desc'>
 							и моментально получите КП на разработку вашего сайта
 						</p>
