@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kwork3/static/css/main.d84ffbdc.css",
-    "main.js": "/kwork3/static/js/main.938dc503.js",
+    "main.css": "/kwork3/static/css/main.0dbfe17a.css",
+    "main.js": "/kwork3/static/js/main.a5cb04ec.js",
     "static/js/453.cb3cc533.chunk.js": "/kwork3/static/js/453.cb3cc533.chunk.js",
     "static/media/decor_bgg.png": "/kwork3/static/media/decor_bgg.0d65392d66ac25ae300d.png",
     "static/media/decor__book.png": "/kwork3/static/media/decor__book.736f0750d25bc7e29378.png",
@@ -42,20 +42,21 @@
     "static/media/Whatsapp (3) 3.svg": "/kwork3/static/media/Whatsapp (3) 3.72b621a1517c7fc9195ebc3a1baf3f69.svg",
     "static/media/like 1.svg": "/kwork3/static/media/like 1.ef233594c57283ac827be2982324a447.svg",
     "static/media/social 1.svg": "/kwork3/static/media/social 1.823908f4b99052404e1aebbbb8d988f4.svg",
+    "static/media/WhatsApp.svg": "/kwork3/static/media/WhatsApp.57b4af221a043a41265bb4121fe78f73.svg",
     "static/media/mail 2.svg": "/kwork3/static/media/mail 2.2ac0f10d0c02742be41737bb5e262994.svg",
     "static/media/Сочетание 1.svg": "/kwork3/static/media/Сочетание 1.43626332c273cd3a9265d932c5efa69b.svg",
     "static/media/envelope 3.svg": "/kwork3/static/media/envelope 3.26fc972dcc927c87bb4e50c1d8fea768.svg",
     "static/media/search.svg": "/kwork3/static/media/search.11090207611e91b3ada3acf4e41f3d11.svg",
-    "static/media/arrow.svg": "/kwork3/static/media/arrow.4dbef2fd345a19fee156241395d736cd.svg",
+    "static/media/call в 1.svg": "/kwork3/static/media/call в 1.7f6b238e7c4e158191a8be7025708de4.svg",
     "static/media/call в 2.svg": "/kwork3/static/media/call в 2.a10dec0988b97a81c8f8835f3d980e5e.svg",
     "static/media/call в 3.svg": "/kwork3/static/media/call в 3.aedeff562ba98b8b78e10bd7bca52897.svg",
     "index.html": "/kwork3/index.html",
-    "main.d84ffbdc.css.map": "/kwork3/static/css/main.d84ffbdc.css.map",
-    "main.938dc503.js.map": "/kwork3/static/js/main.938dc503.js.map",
+    "main.0dbfe17a.css.map": "/kwork3/static/css/main.0dbfe17a.css.map",
+    "main.a5cb04ec.js.map": "/kwork3/static/js/main.a5cb04ec.js.map",
     "453.cb3cc533.chunk.js.map": "/kwork3/static/js/453.cb3cc533.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d84ffbdc.css",
-    "static/js/main.938dc503.js"
+    "static/css/main.0dbfe17a.css",
+    "static/js/main.a5cb04ec.js"
   ]
 }
