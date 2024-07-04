@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kwork3/static/css/main.0dbfe17a.css",
-    "main.js": "/kwork3/static/js/main.a5cb04ec.js",
+    "main.css": "/kwork3/static/css/main.ff9975ab.css",
+    "main.js": "/kwork3/static/js/main.941672b2.js",
     "static/js/453.cb3cc533.chunk.js": "/kwork3/static/js/453.cb3cc533.chunk.js",
     "static/media/decor_bgg.png": "/kwork3/static/media/decor_bgg.0d65392d66ac25ae300d.png",
     "static/media/decor__book.png": "/kwork3/static/media/decor__book.736f0750d25bc7e29378.png",
@@ -38,6 +38,7 @@
     "static/media/futurePc.png": "/kwork3/static/media/futurePc.c894ff7e170f93f151d6.png",
     "static/media/denga.png": "/kwork3/static/media/denga.81b4a74a1b0309a022cc.png",
     "static/media/phoneDecor.png": "/kwork3/static/media/phoneDecor.6e5680178f2b42dbdbc8.png",
+    "static/media/Vector.svg": "/kwork3/static/media/Vector.1ef7788827f84fb0b95972d3b729f4a6.svg",
     "static/media/instagram-sketched 2.svg": "/kwork3/static/media/instagram-sketched 2.e7e23ad1334fb2ab8af1c9430f004aad.svg",
     "static/media/Whatsapp (3) 3.svg": "/kwork3/static/media/Whatsapp (3) 3.72b621a1517c7fc9195ebc3a1baf3f69.svg",
     "static/media/like 1.svg": "/kwork3/static/media/like 1.ef233594c57283ac827be2982324a447.svg",
@@ -51,12 +52,12 @@
     "static/media/call в 2.svg": "/kwork3/static/media/call в 2.a10dec0988b97a81c8f8835f3d980e5e.svg",
     "static/media/call в 3.svg": "/kwork3/static/media/call в 3.aedeff562ba98b8b78e10bd7bca52897.svg",
     "index.html": "/kwork3/index.html",
-    "main.0dbfe17a.css.map": "/kwork3/static/css/main.0dbfe17a.css.map",
-    "main.a5cb04ec.js.map": "/kwork3/static/js/main.a5cb04ec.js.map",
+    "main.ff9975ab.css.map": "/kwork3/static/css/main.ff9975ab.css.map",
+    "main.941672b2.js.map": "/kwork3/static/js/main.941672b2.js.map",
     "453.cb3cc533.chunk.js.map": "/kwork3/static/js/453.cb3cc533.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dbfe17a.css",
-    "static/js/main.a5cb04ec.js"
+    "static/css/main.ff9975ab.css",
+    "static/js/main.941672b2.js"
   ]
 }
