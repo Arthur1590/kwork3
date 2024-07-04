@@ -33,12 +33,12 @@ const Pricelevel3 = ({ counter, onNext, onAnswer }) => {
 					<span className='counter'>{counter} из 4 вопросов</span>
 					<TitleIn text='Как будем делать сайт?' />
 				</div>
-				<div className='price__level-content'>
+				<div className='price__level-content price__level-content-lvl3'>
 					<div
 						onClick={() =>
 							classChanger(0, 'Сделать лендинг на готовом решении')
 						}
-						className={clsx('price__level-item', { active: activeIndex === 0 })}
+						className={clsx('price__level-item lvl3-img', { active: activeIndex === 0 })}
 					>
 						<img src={pc} alt='oops' />
 						<p className='price__level-desc'>
@@ -49,7 +49,7 @@ const Pricelevel3 = ({ counter, onNext, onAnswer }) => {
 						onClick={() =>
 							classChanger(1, 'Разработать уникальный дизайн лендинга')
 						}
-						className={clsx('price__level-item', { active: activeIndex === 1 })}
+						className={clsx('price__level-item lvl3-img', { active: activeIndex === 1 })}
 					>
 						<img src={laba} alt='oops' />
 						<p className='price__level-desc'>
@@ -61,7 +61,7 @@ const Pricelevel3 = ({ counter, onNext, onAnswer }) => {
 			</div>
 
 			<div className='price__level-decor lvl3-decor decor--3'>
-				<img src={noutbooks} alt='' />
+				<img className='price__level-decor-nout' src={noutbooks} alt='' />
 			</div>
 		</div>
 	)

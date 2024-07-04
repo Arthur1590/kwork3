@@ -5,6 +5,8 @@ import frameLeftSide from '../img/frameLeftSide.png'
 import frameRightSide from '../img/frameRightSide.png'
 import myProfile from '../img/myPic.png'
 import mobile from '../img/phoneDecor.png'
+import dots from '../img/Vector.svg'
+import sun from '../img/maskSun.png'
 import CustomBtn from '../../../UI/CutomBtn/CustomBtn'
 import clsx from 'clsx'
 import TitleIn from '../../../TitleIn/TitleIn'
@@ -52,8 +54,16 @@ const Pricelevel1 = ({ counter, onNext, onAnswer, skipCards }) => {
 						className={clsx('price__level-item', { active: activeIndex === 2 })}
 					>
 						<div>
-							<img src={frameLeftSide} alt='oops' />
-							<img src={frameRightSide} alt='oops' />
+							<img
+								className='price__level-imgFrame'
+								src={frameLeftSide}
+								alt='oops'
+							/>
+							<img
+								className='price__level-imgFrame'
+								src={frameRightSide}
+								alt='oops'
+							/>
 						</div>
 						<p className='price__level-desc'>Оба варианта</p>
 					</div>
@@ -62,12 +72,14 @@ const Pricelevel1 = ({ counter, onNext, onAnswer, skipCards }) => {
 			</div>
 
 			<div className='price__bg'>
+				<img src={sun} className='price__level-decor-sun' alt='' />
 				<div className='price__level-decor'>
 					<img
 						className='price__level-decor-profile'
 						src={myProfile}
 						alt='oops'
 					/>
+					<img src={dots} className='price__level-decor-dots' alt='oops' />
 					<div className='price__level-info'>
 						<h5>Помогу для Вас найти лучшее решение</h5>
 						<div className='prcie__level-info--flexer'>

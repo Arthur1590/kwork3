@@ -49,7 +49,7 @@ const Pricelevel2 = ({ counter, onNext, onAnswer }) => {
 			</div>
 
 			<div className='price__level-decor'>
-				<img src={darts} alt='' />
+				<img className='price__level-decor-darts' src={darts} alt='' />
 			</div>
 		</div>
 	)

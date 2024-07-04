@@ -45,42 +45,52 @@ const Pricelevel4 = ({ counter, onNext, onAnswer, reset }) => {
 				<div className='price__level-content-grid'>
 					<div
 						onClick={() => classChanger(0, 'Интеграция с СРМ (Амо, Битрикс24)')}
-						className={clsx('price__level-item item__lvl4', { active: activeIndex === 0 })}
+						className={clsx('price__level-item item__lvl4', {
+							active: activeIndex === 0,
+						})}
 					>
-						<img src={table} alt='oops' />
+						<img className='price__img-lvl4' src={table} alt='oops' />
 						<p className='price__level-desc'>
 							Интеграция с СРМ (Амо, Битрикс24)
 						</p>
 					</div>
 					<div
 						onClick={() => classChanger(1, 'Яндекс директ реклама')}
-						className={clsx('price__level-item  item__lvl4', { active: activeIndex === 1 })}
+						className={clsx('price__level-item  item__lvl4', {
+							active: activeIndex === 1,
+						})}
 					>
-						<img src={yandex} alt='' />
+						<img className='price__img-lvl4' src={yandex} alt='' />
 						<p className='price__level-desc'>Яндекс директ реклама</p>
 					</div>
 					<div
 						onClick={() => classChanger(2, 'Настройка рекламы соц. сети')}
-						className={clsx('price__level-item  item__lvl4', { active: activeIndex === 2 })}
+						className={clsx('price__level-item  item__lvl4', {
+							active: activeIndex === 2,
+						})}
 					>
 						<div className='prcie__level-info--flexer--4'>
-							<img src={insta} alt='' />
-							<img src={facebook} alt='' />
+							<img className='price__img-lvl4' src={insta} alt='' />
+							<img className='price__img-lvl4' src={facebook} alt='' />
 						</div>
 						<p className='price__level-desc'>Настройка рекламы соц. сети</p>
 					</div>
 					<div
 						onClick={() => classChanger(3, 'Гугл реклама')}
-						className={clsx('price__level-item  item__lvl4', { active: activeIndex === 3 })}
+						className={clsx('price__level-item  item__lvl4', {
+							active: activeIndex === 3,
+						})}
 					>
-						<img src={google} alt='' />
+						<img className='price__img-lvl4' src={google} alt='' />
 						<p className='price__level-desc'>Гугл реклама</p>
 					</div>
 					<div
 						onClick={() => classChanger(4, 'SEO продвижение)')}
-						className={clsx('price__level-item  item__lvl4', { active: activeIndex === 4 })}
+						className={clsx('price__level-item  item__lvl4', {
+							active: activeIndex === 4,
+						})}
 					>
-						<img src={seo} alt='' />
+						<img className='price__img-lvl4' src={seo} alt='' />
 						<p className='price__level-desc'>SEO продвижение</p>
 					</div>
 					<ResetBtn reset={onNext} content='Закончить' />

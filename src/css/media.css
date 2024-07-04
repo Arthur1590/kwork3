@@ -2,6 +2,11 @@
 	.main .faq__content-inputs label input::placeholder {
 		display: none;
 	}
+	.main .certificate .top {
+		top: -7.5rem;
+		right: -2rem;
+		max-width: 11.91rem;
+	}
 	.main .price__indicate {
 		display: none;
 	}
@@ -61,6 +66,9 @@
 	}
 }
 @media (max-width: 768px) {
+	.main .gift {
+		max-width: 10rem;
+	}
 	.main .form .container .book {
 		display: none;
 	}
@@ -71,7 +79,7 @@
 		display: none;
 	}
 	.main .bonus__wrapper {
-		flex-flow: row wrap;
+		flex-flow: column-reverse wrap;
 		justify-content: center;
 	}
 	.main .bonus__wrapper img {
@@ -176,5 +184,11 @@
 	.main .price__wrapper {
 		flex-flow: row wrap;
 		justify-content: center;
+	}
+	.main .price__level-decor-darts {
+		display: none;
+	}
+	.main .price__level-decor-nout {
+		display: none;
 	}
 }
