@@ -60,7 +60,7 @@ const Pricelevel3 = ({ counter, onNext, onAnswer }) => {
 				<CustomBtn content='Далее' onNext={onNext} />
 			</div>
 
-			<div className='price__level-decor decor--3'>
+			<div className='price__level-decor lvl3-decor decor--3'>
 				<img src={noutbooks} alt='' />
 			</div>
 		</div>

@@ -14,6 +14,12 @@ const Price = () => {
 	const handleNext = () => {
 		setStep(step + 1)
 	}
+	const reset = () => {
+		setStep(1)
+	}
+	const skipCards = () => {
+		setStep(step + 4)
+	}
 
 	const finishQuest = () => {
 		console.log('Ответы:', answers)
@@ -36,6 +42,7 @@ const Price = () => {
 				<div className='price__content-levels'>
 					{step === 1 && (
 						<Pricelevel1
+							skipCards={skipCards}
 							counter={step}
 							onNext={handleNext}
 							onAnswer={answer => getAnswers('question1', answer)}
@@ -59,13 +66,14 @@ const Price = () => {
 						<Pricelevel4
 							counter={step}
 							onNext={handleNext}
+							reset={reset}
 							onAnswer={answer => getAnswers('question4', answer)}
 						/>
 					)}
 					{step === 5 && (
 						<PricelevelEnd
 							counter={step}
-							onNext={finishQuest}
+							onNext={reset}
 							onAnswer={answer => getAnswers('question5', answer)}
 						/>
 					)}

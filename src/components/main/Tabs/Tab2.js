@@ -10,7 +10,6 @@ const Tab2 = ({ data }) => {
 
 	return (
 		<div className='tab2'>
-			<>
 				{data &&
 					data.map((item, index) => (
 						<Accordion
@@ -21,7 +20,6 @@ const Tab2 = ({ data }) => {
 							onClick={() => toggleAccordion(index)}
 						/>
 					))}
-			</>
 		</div>
 	)
 }

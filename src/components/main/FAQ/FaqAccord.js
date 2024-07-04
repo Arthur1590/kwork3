@@ -1,6 +1,5 @@
 import clsx from 'clsx'
 import React from 'react'
-import './faq.css'
 
 const FaqAccord = ({ title, content, isOpen, onClick }) => {
 	const activeState = clsx('faq__accord-content', { active: isOpen })

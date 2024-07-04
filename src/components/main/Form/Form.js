@@ -12,12 +12,13 @@ const Form = () => {
 		<div className='form'>
 			<img className='bg__big' src={bg} alt='' />
 			<div className='container'>
-				<img className='book' src={book} alt='' />
 				<SectionTitle
 					text='Вам'
 					span='нужен современный красивый сайт,'
 					text2='который будет приносить клиентов?'
 				/>
+				<img className='book' src={book} alt='' />
+				<img className='book__media' src={book} alt='' />
 				<div className='form__content'>
 					<div className='form__content-info'>
 						<h1 id='form' className='form__content-title'>

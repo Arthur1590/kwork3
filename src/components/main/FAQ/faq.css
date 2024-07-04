@@ -4,19 +4,35 @@
 }
 .faq .container {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	flex-flow: column wrap;
+	align-items: flex-start;
+	justify-content: center;
 }
 .faq .container .section__title {
-	width: 29.31rem;
+	max-width: 29.31rem;
 	margin: 128px 0 30px 0;
 }
 .faq__content {
+	z-index: 99999;
+	border-radius: 0.56rem;
+	box-shadow: 0rem 0rem 1.25rem 0rem rgba(0, 0, 0, 0.11);
+	background: rgb(255, 255, 255);
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
+	width: 100%;
+	gap: 37px;
+	padding: 60px 10px;
 }
-
+.faq__form-content {
+	box-shadow: 0rem 0rem 1.25rem 0rem rgba(0, 0, 0, 0.11);
+	background: rgb(255, 255, 255);
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	width: fit-content;
+	gap: 37px;
+}
 .faq__accord .container {
 	display: flex;
 	flex-direction: column;
@@ -25,22 +41,23 @@
 }
 .faq__accord-wrapper {
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	flex-flow: column wrap;
+	justify-content: flex-start;
 	border-radius: 0.56rem;
 	box-shadow: 0rem 0rem 1.13rem 0rem rgba(0, 0, 0, 0.13);
 	background: rgb(255, 255, 255);
 }
 .faq__accord-title {
 	z-index: 999;
-	width: 100%;
 	color: rgb(34, 34, 34);
-	font-size: 1.13rem;
+	font-size: clamp(0.9rem, 2.5vw, 1.13rem);
 	font-weight: 400;
 	line-height: 1.31rem;
 	border-bottom: 1px solid rgb(231, 231, 231);
-	padding: 20px;
+	padding: 1rem 0.2rem;
 	cursor: pointer;
+	width: 100%;
+	text-align: center;
 }
 .faq__accord-content {
 	opacity: 0;
@@ -49,18 +66,18 @@
 }
 .faq__accord-content.active {
 	opacity: 1;
-	height: 1.5rem;
+	height: 6rem;
 	padding: 1.5rem 0;
 }
 .faq__accord-desc {
 	color: rgba(34, 34, 34, 0.6);
-	font-size: 1rem;
+	font-size: clamp(0.9rem, 2.5vw, 1rem);
 	font-weight: 400;
 	line-height: 1.19rem;
 	padding: 0 1rem;
+	max-width: 240px;
 }
 textarea {
-	padding: 40px 123px 20px 53px;
 	resize: none;
 	border: none;
 	outline: none;
@@ -68,4 +85,91 @@ textarea {
 	border: 0.06rem solid rgb(231, 231, 231);
 	border-radius: 1.19rem;
 	background: rgb(242, 242, 242);
+	width: 100%;
+	padding: 1rem;
+}
+/* FORM */
+
+.faq__form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	position: relative;
+}
+.faq__form .container {
+	align-items: center;
+}
+.faq__form .container {
+	position: relative;
+}
+.bg__big {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: -2;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+.faq__content-title {
+	color: rgb(0, 0, 0);
+	font-size: clamp(1rem, 2.5vw, 2.13rem);
+	font-weight: 600;
+	line-height: 2.56rem;
+	text-align: center;
+}
+.faq__content-desc {
+	color: rgb(0, 0, 0);
+	font-size: clamp(1rem, 2.5vw, 1.13rem);
+	font-weight: 400;
+	line-height: 120%;
+	text-align: center;
+}
+.faq__content-inputs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+.faq__content-inputs label {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0 0.2rem;
+}
+.faq__content-inputs label input {
+	box-sizing: border-box;
+	border: 0.06rem solid rgb(231, 231, 231);
+	border-radius: 3.81rem;
+	background: rgb(242, 242, 242);
+	padding: 20px 153px 20px 53px;
+	color: #000;
+	font-size: clamp(1rem, 2.5vw, 1.13rem);
+	font-weight: 400;
+	line-height: 1.31rem;
+	text-align: left;
+	width: 100%;
+}
+.faq__content-inputs button {
+	padding: 1rem;
+}
+.faq__content-inputs label input::placeholder {
+	color: rgb(197, 197, 197);
+}
+.faq__content-inputs label span {
+	display: flex;
+	align-items: center;
+}
+.faq__checkbox {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.5rem;
+}
+.faq__checkbox .faq__checkbox-box {
+	width: fit-content;
+}
+.faq__checkbox p {
+	font-size: clamp(1rem, 2.5vw, 1.1rem);
 }

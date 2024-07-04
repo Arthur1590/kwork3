@@ -10,8 +10,9 @@
 	align-items: center;
 	justify-content: space-between;
 	gap: 78px;
-	min-height: 45.69rem;
-	padding: 26px 90px 53px 69px;
+	padding: 70px 20px;
+	max-width:450px;
+	max-height: 47rem;
 }
 .var .contaienr {
 	position: relative;
@@ -23,28 +24,35 @@
 	width: 100%;
 	object-fit: cover;
 	z-index: -1;
+	display: none;
 }
 .var__left-holder {
 	display: flex;
-	flex-direction: column;
+	flex-flow: column wrap;
 	align-items: center;
+}
+.var__left-holder img {
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
 }
 .var .container {
 	display: flex;
+	flex-flow: row wrap;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	gap: 30px;
 }
 .var__title {
 	color: rgb(34, 34, 34);
-	font-size: 1.63rem;
+	font-size: clamp(1rem, 2.5vw, 1.63rem);
 	font-weight: 600;
 	line-height: 1.94rem;
 	text-align: center;
 }
 .var__desc {
 	color: rgb(34, 34, 34);
-	font-size: 1.13rem;
+	font-size: clamp(1rem, 2.5vw,  1.13rem);
 	font-weight: 400;
 	line-height: 1.31rem;
 	text-align: center;
@@ -65,13 +73,14 @@
 	position: relative;
 	text-align: center;
 }
-.var__price::before {
+
+.var__price-sub {
 	position: absolute;
 	width: 100%;
 	top: -2.9rem;
 	left: 50%;
 	transform: translateX(-50%);
-	content: '60000 руб';
+	content: '114 000 руб';
 	text-decoration: line-through;
 	color: rgb(152, 152, 151);
 	font-size: 1.13rem;

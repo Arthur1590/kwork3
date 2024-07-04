@@ -9,7 +9,7 @@ import CustomBtn from '../../../UI/CutomBtn/CustomBtn'
 import clsx from 'clsx'
 import TitleIn from '../../../TitleIn/TitleIn'
 
-const Pricelevel1 = ({ counter, onNext, onAnswer }) => {
+const Pricelevel1 = ({ counter, onNext, onAnswer, skipCards }) => {
 	const [activeIndex, setActiveIndex] = useState(null)
 
 	const classChanger = (index, answer) => {
@@ -71,7 +71,7 @@ const Pricelevel1 = ({ counter, onNext, onAnswer }) => {
 					<div className='price__level-info'>
 						<h5>Помогу для Вас найти лучшее решение</h5>
 						<div className='prcie__level-info--flexer'>
-							<button>Бонус</button>
+							<CustomBtn content='Бонус' onNext={skipCards} />
 							<img src={mobile} alt='oops' />
 						</div>
 						<p>

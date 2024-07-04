@@ -3,19 +3,20 @@ import CustomBtn from '../../UI/CutomBtn/CustomBtn'
 import profile from './img/social 1.svg'
 import email from './img/mail 2.svg'
 import phone from './img/call в 2.svg'
+import './faq.css'
 
 const FaqForm = () => {
 	return (
-		<div className='form'>
+		<div className='faq__form'>
 			<div className='container'>
-				<div className='form__content'>
-					<div className='form__content-info'>
-						<h1 className='form__content-title'>Заполните форму</h1>
-						<p className='form__content-desc'>
+				<div className='faq__form-content'>
+					<div className='faq__content-info'>
+						<h1 className='faq__content-title'>Заполните форму</h1>
+						<p className='faq__content-desc'>
 							и в течении <strong>10 минут</strong> наш менеджер ответит Вам
 						</p>
 					</div>
-					<div className='form__content-inputs'>
+					<div className='faq__content-inputs'>
 						<label>
 							<img src={profile} alt='oops' />
 							<input type='text' placeholder='Ваше имя' />
@@ -27,11 +28,11 @@ const FaqForm = () => {
 						</label>
 						<label>
 							<img src={email} alt='oops' />
-							<textarea cols={30} placeholder='Ваш вопрос'></textarea>
+							<textarea cols={53} rows={5} placeholder='Ваш вопрос'></textarea>
 						</label>
 						<CustomBtn content='Отправить' />
-						<label className='checkbox'>
-							<input type='checkbox' />
+						<label className='faq__checkbox'>
+							<input className='faq__checkbox-box' type='checkbox' />
 							<p>Нажимая, соглашаюсь на обработку персональных данных</p>
 						</label>
 					</div>

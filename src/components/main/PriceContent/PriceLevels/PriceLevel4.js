@@ -11,8 +11,9 @@ import CustomBtn from '../../../UI/CutomBtn/CustomBtn'
 import clsx from 'clsx'
 import TitleIn from '../../../TitleIn/TitleIn'
 import '../price.css'
+import ResetBtn from '../../../UI/ResetBtn/Resetbtn'
 
-const Pricelevel4 = ({ counter, onNext, onAnswer }) => {
+const Pricelevel4 = ({ counter, onNext, onAnswer, reset }) => {
 	const [activeIndex, setActiveIndex] = useState(null)
 
 	const classChanger = (index, answer) => {
@@ -44,7 +45,7 @@ const Pricelevel4 = ({ counter, onNext, onAnswer }) => {
 				<div className='price__level-content-grid'>
 					<div
 						onClick={() => classChanger(0, 'Интеграция с СРМ (Амо, Битрикс24)')}
-						className={clsx('price__level-item', { active: activeIndex === 0 })}
+						className={clsx('price__level-item item__lvl4', { active: activeIndex === 0 })}
 					>
 						<img src={table} alt='oops' />
 						<p className='price__level-desc'>
@@ -52,24 +53,15 @@ const Pricelevel4 = ({ counter, onNext, onAnswer }) => {
 						</p>
 					</div>
 					<div
-						onClick={() => classChanger(1, 'Интеграция с СРМ (Амо, Битрикс24)')}
-						className={clsx('price__level-item', { active: activeIndex === 1 })}
-					>
-						<img src={table} alt='' />
-						<p className='price__level-desc'>
-							Интеграция с СРМ (Амо, Битрикс24)
-						</p>
-					</div>
-					<div
-						onClick={() => classChanger(2, 'Яндекс директ реклама')}
-						className={clsx('price__level-item', { active: activeIndex === 2 })}
+						onClick={() => classChanger(1, 'Яндекс директ реклама')}
+						className={clsx('price__level-item  item__lvl4', { active: activeIndex === 1 })}
 					>
 						<img src={yandex} alt='' />
 						<p className='price__level-desc'>Яндекс директ реклама</p>
 					</div>
 					<div
-						onClick={() => classChanger(3, 'Настройка рекламы соц. сети')}
-						className={clsx('price__level-item', { active: activeIndex === 3 })}
+						onClick={() => classChanger(2, 'Настройка рекламы соц. сети')}
+						className={clsx('price__level-item  item__lvl4', { active: activeIndex === 2 })}
 					>
 						<div className='prcie__level-info--flexer--4'>
 							<img src={insta} alt='' />
@@ -78,21 +70,21 @@ const Pricelevel4 = ({ counter, onNext, onAnswer }) => {
 						<p className='price__level-desc'>Настройка рекламы соц. сети</p>
 					</div>
 					<div
-						onClick={() => classChanger(4, 'Гугл реклама')}
-						className={clsx('price__level-item', { active: activeIndex === 4 })}
+						onClick={() => classChanger(3, 'Гугл реклама')}
+						className={clsx('price__level-item  item__lvl4', { active: activeIndex === 3 })}
 					>
 						<img src={google} alt='' />
 						<p className='price__level-desc'>Гугл реклама</p>
 					</div>
 					<div
-						onClick={() => classChanger(5, 'SEO продвижение)')}
-						className={clsx('price__level-item', { active: activeIndex === 5 })}
+						onClick={() => classChanger(4, 'SEO продвижение)')}
+						className={clsx('price__level-item  item__lvl4', { active: activeIndex === 4 })}
 					>
 						<img src={seo} alt='' />
 						<p className='price__level-desc'>SEO продвижение</p>
 					</div>
+					<ResetBtn reset={onNext} content='Закончить' />
 				</div>
-				<CustomBtn content='Закончить' onNext={onNext} />
 			</div>
 
 			<div className='price__bg'>
@@ -105,7 +97,7 @@ const Pricelevel4 = ({ counter, onNext, onAnswer }) => {
 					<div className='price__level-info'>
 						<h5>Помогу для Вас найти лучшее решение</h5>
 						<div className='prcie__level-info--flexer'>
-							<button>Бонус</button>
+							<CustomBtn content='Бонус' onNext={onNext} />
 							<img src={mobile} alt='oops' />
 						</div>
 						<p>

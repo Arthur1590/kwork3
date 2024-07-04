@@ -16,7 +16,6 @@ const Main = () => {
 			<SectionTitle text='Вы можете заказать 2 варианта сайта' />
 			<DoubleVariant />
 			<Price />
-			<SectionTitle text='Наши многостраничные сайты, которые приносят клиентов' />
 			<Project />
 			<Tabs />
 			<SectionTitle text='Качество, подтвержденное клиентами' />

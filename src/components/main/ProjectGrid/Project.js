@@ -13,6 +13,7 @@ import {
 import ProjectItem from './ProjectItem'
 import './projects.css'
 import CustomBtn from '../../UI/CutomBtn/CustomBtn'
+import SectionTitle from '../../sectionTitle/SectionTitle'
 
 const Project = () => {
 	const data = [
@@ -56,10 +57,12 @@ const Project = () => {
 	return (
 		<div className='projects'>
 			<div className='container'>
-				{data &&
-					data.map(item => <ProjectItem key={item.id} item={item.img} />)}
+				<SectionTitle text='Наши многостраничные сайты, которые приносят клиентов' />
+				<div className='projects__wrapper'>
+					{data &&
+						data.map(item => <ProjectItem key={item.id} item={item.img} />)}
+				</div>
 			</div>
-
 			<CustomBtn content={'Загрузить еще'} />
 		</div>
 	)

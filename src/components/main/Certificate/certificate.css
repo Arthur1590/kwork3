@@ -1,5 +1,6 @@
 .certificate {
-	height: 100vh;
+	height: 100;
+	max-height: fit-content;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -7,17 +8,19 @@
 .certificate__wrapper {
 	width: fit-content;
 	display: flex;
+	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
 	gap: 30px;
 	position: relative;
 }
 .certificate__img {
-	max-width: 15.13rem;
+	max-width: 10.13rem;
 	width: 100%;
 	object-fit: cover;
 	object-position: center;
 }
+
 .certificate__decor {
 	max-width: 18.91rem;
 	object-fit: cover;

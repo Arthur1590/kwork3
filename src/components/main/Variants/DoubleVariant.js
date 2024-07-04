@@ -11,15 +11,17 @@ const DoubleVariant = () => {
 			text: 'Вам будут предложенны готовые решения сайтов с готовым дизайном и структорой.',
 			decs: 'Вам нужно будет только вставить текст и цены.',
 			price: 'От 45000 руб',
+			subPrice: '60000 руб',
 			more: 'Подробнее',
-			img: pc1,
+			img: pc2,
 		},
 		{
 			title: 'Многостраничный сайт на готовом решении',
 			text: 'Сайт будет разработан индивидуально под Ваши пожелания. Расположение блоков, цветов, описаний.',
 			price: 'От 95000 руб',
+			subPrice: '114 000 руб',
 			more: 'Подробнее',
-			img: pc2,
+			img: pc1,
 		},
 	]
 
@@ -37,7 +39,10 @@ const DoubleVariant = () => {
 								<p className='var__desc'>{item.decs}</p>
 							</div>
 							<div className='var__info'>
-								<p className='var__price'>{item.price}</p>
+								<p className='var__price'>
+									{item.price}
+									<span className='var__price-sub'>{item.subPrice}</span>
+								</p>
 								<button className='var__btn'>{item.more}</button>
 							</div>
 						</article>
